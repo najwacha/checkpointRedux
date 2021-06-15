@@ -1,0 +1,90 @@
+.App{
+  height:100vh;
+  width:100vw;
+  background-color:white;
+  padding-top: 10px;
+}
+.buttonAll {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 70px;
+  height: 40px;
+  color: black;
+  font-size: large;
+  margin-left: 10px;
+}
+.buttonUnDone{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 110px;
+  height: 40px;
+  color: black;
+  font-size: large;
+  
+}
+.buttonDone{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  font-size: large;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.App_Container{
+  height:95vh;
+  width: 600px;
+  display:flex; 
+  flex-direction: column;
+  align-items: center; 
+  background-color: rgb(246, 39, 39);
+  border-radius: 12px;
+  padding:10px 0;
+  margin-left: 400px; 
+  
+}
+.hi{
+  display: inline-block;
+}
+/* -------------todo.css--------------- */
+.buttonDelete{
+  background-color: rgb(219, 215, 215);
+  color: royalblue;
+  width: 60px;
+  height: 35px;
+  border-radius: 8px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.buttonEdit{
+  background-color: whitesmoke;
+  color: royalblue;
+  width: 60px;
+  height: 35px;
+  border-radius: 8px;
+}
+.input{
+  color: gray;
+  height: 30px;
+  width: 300px;
+  border-radius: 8px;
+}
+/* ----------------AddTodo.css -------------*/
+.buttonAdd{
+  background-color:rgb(153, 153, 61);
+  width: 70px;
+  height: 30px;
+  text-decoration-line: underline;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.inputPlaceholder{
+  width:350px;
+  height:25px;
+  border-radius: 10px;
+}
+h5{
+  color: whitesmoke;
+}
+
